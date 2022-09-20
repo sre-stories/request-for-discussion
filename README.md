@@ -123,8 +123,8 @@ How would an attacker use the proposed facilities to escalate their privileges?
 
 
 ## Naming Standards
-Each branch should be named with a `rfd-{{title}}-{{rfd-number}}` 
-> *Example:*</br>   `rfd-aws_provider_update_001`
+Each branch should be named with a `{{title}}-{{JIRAKEY}}-{{rfd-issue-number}}` 
+> *Example:*</br>   `awsproviderupdate-SRE1-001-rfd-001`
 
 
 </br>
