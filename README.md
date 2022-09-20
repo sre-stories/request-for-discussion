@@ -26,10 +26,10 @@
 9. What is the security impact?
 
 ## PR Labels 🏷
-`predraft`
-`draft`
-`publish`
-`abandoned`
+`predraft` - A single individual contributor is working on a POC/concept. </br>
+`draft` - The concept is ready to be discussed with a sqad or team. </br>
+`publish` - Team feedback has been collected and any diviations from the orginal concept are documented in the PR. Once reviews and approvals are docunented, merge into main.</br>
+`abandoned` - Feedback was contructive and determined this was not the best path forward and the reason why is clearly documented/stated. </br>
 
 ## Purpose of an RFD
 > The following is a way to help you think about and structure an RFD
