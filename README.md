@@ -161,4 +161,4 @@ Look into automating releases for each PR.
 
 
 #### Credit:
-Credit where credit is due - mostly created from https://github.com/TritonDataCenter/rfd 
+Credit where credit is due - mostly created if not entirely from https://github.com/TritonDataCenter/rfd 
