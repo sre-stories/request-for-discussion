@@ -1,4 +1,4 @@
-# Pull Request Standards for an RFD
+# Standards for an RFD
 - [PR Checklist Template (Only Copy This Into the PR)](#checklist-template)
 - [PR Labels 🏷](#pr-labels-)
 - [Purpose of an RFD](#purpose-of-an-rfd)
