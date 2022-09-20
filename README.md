@@ -2,17 +2,17 @@
 - [PR Checklist Template (Only Copy This Into the PR)](#checklist-template)
 - [PR Labels 🏷](#pr-labels-)
 - [Purpose of an RFD](#purpose-of-an-rfd)
-    - [Details 📚](#details-)
-     - [Title](#title)
-     - [What problem is this solving?](#what-problem-is-this-solving)
-     - [What are the principles and constraints on the design of the solution?](#what-are-the-principles-and-constraints-on-the-design-of-the-solution)
-     - [How will users interact with these features?](#how-will-users-interact-with-these-features)
-     - [What repositories are being changed, if known?](#what-repositories-are-being-changed-if-known)
-     - [What public interfaces are changing?](#what-public-interfaces-are-changing)
-     - [What private interfaces are changing?](#what-private-interfaces-are-changing)
-     - [What is the upgrade impact?](#what-is-the-upgrade-impact)
-     - [What is the security impact?](#what-is-the-security-impact) 
-    - [Naming Standards](#naming-standards)
+- [Details 📚](#details-)
+	- [Title](#title)
+    - [What problem is this solving?](#what-problem-is-this-solving)
+    - [What are the principles and constraints on the design of the solution?](#what-are-the-principles-and-constraints-on-the-design-of-the-solution)
+    - [How will users interact with these features?](#how-will-users-interact-with-these-features)
+    - [What repositories are being changed, if known?](#what-repositories-are-being-changed-if-known)
+    - [What public interfaces are changing?](#what-public-interfaces-are-changing)
+    - [What private interfaces are changing?](#what-private-interfaces-are-changing)
+    - [What is the upgrade impact?](#what-is-the-upgrade-impact)
+    - [What is the security impact?](#what-is-the-security-impact) 
+- [Naming Standards](#naming-standards)
 
 ## Checklist Template
 1. Title
@@ -53,21 +53,21 @@
 
 </br>
 
-## Details 📚
-**Title**</br>
+## Details 📚</br>
+#### Title 
 > This is a simple synopsis of the document. Note, the title is not fixed.
 It may change as the RFD evolves.
 
 
 
-**What problem is this solving?**</br>
+#### What problem is this solving?
 > The goal here is to describe the problems that we are trying to address
 that motivate the solution. The problem should not be described in terms
 of the solution.
 
 
 
-**What are the principles and constraints on the design of the solution?**</br>
+#### What are the principles and constraints on the design of the solution?
 > You should use this section to describe the first principles or other
 important decisions that constrain the problem. For example, a
 constraint on the design may be that we should be able to do an
@@ -75,7 +75,7 @@ operation without downtime.
 
 
 
-**How will users interact with these features?**</br>
+#### How will users interact with these features?
 > Here, you should consider both operators, end users, and developers. You
 should consider not only how they’ll verify that it’s working correctly,
 but also how they’ll verify if it’s broken and what actions they should
@@ -83,33 +83,33 @@ take from there.
 
 
 
-**What repositories are being changed, if known?**</br>
+#### What repositories are being changed, if known?
 > If it’s known, a list of what git repositories are being changed as a
 result of this would be quite useful.
 
 
 
-**What public interfaces are changing?**</br>
+#### What public interfaces are changing?
 > What interfaces that users and operators are using and rely upon are
 changing? Note that when changing public interfaces we have to be extra
 careful to ensure that we don’t break existing users and scripts.
 
 
 
-**What private interfaces are changing?**</br>
+#### What private interfaces are changing?
 > What interfaces that are private to the system are changing? Changing
 these interfaces may impact the system, but should not impact operators
 and users directly.
 
 
 
-**What is the upgrade impact?**</br>
+#### What is the upgrade impact?
 > For an existing install, what are the implications if anything is
 upgraded through the normal update mechanisms, e.g. platform reboot,
 sdcadm update, manta-adm update, etc. Are there any special steps that
 need to be taken or do certain updates need to happen together for this
 
-**What is the security impact?**</br>
+#### What is the security impact?
 > What (untrusted) user input (including both data and code) will be used as part
 of the change? Which components will interact with that input? How will that
 input be validated and managed securely? What new operations are exposed and
