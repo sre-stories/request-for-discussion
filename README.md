@@ -120,7 +120,8 @@ How would an attacker use the proposed facilities to escalate their privileges?
 
 
 ## Naming Standards
-Each branch should be named with a rfd-{{rfd-number}} example: rfd-001
+Each branch should be named with a `rfd-{{title}}-{{rfd-number}}` 
+> example: rfd-aws_provider_update_001
 
 
 </br>
